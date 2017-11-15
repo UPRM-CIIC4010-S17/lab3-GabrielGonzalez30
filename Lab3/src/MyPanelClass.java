@@ -34,9 +34,9 @@ public class MyPanelClass extends JPanel {
                         g.fillRect(x1, y1, width + 1, height + 1); 
                         
                         g.setColor(Color.RED);
-                        g.fillRect(x1, y1, width + 1, height/4);
-                        g.fillRect(x1, y1 + (height/2)/3, width + 1, height/4);
-                        g.fillRect(x1, y1, width + 1, height/4);
+                        g.fillRect(x1, y1, width + 1, height/5);
+                        g.fillRect(x1, height, width + 1, height/5);
+                       // g.fillRect(x1, y1, width + 1, height/5);
                         
 //                        g.setColor(Color.RED);
 //                        g.drawRect(x1 + 5, y1 + 5, width - 10, height - 10);
