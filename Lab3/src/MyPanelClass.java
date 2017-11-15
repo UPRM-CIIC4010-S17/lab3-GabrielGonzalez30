@@ -30,15 +30,13 @@ public class MyPanelClass extends JPanel {
                         int height = y2 - y1;
  
                         //Paint the background
-                        g.setColor(Color.GRAY);
-                        g.fillRect(x1, y1, width + 1, height + 1);
+                        g.setColor(Color.WHITE);
+                        g.fillRect(x1, y1, width + 1, height + 1); 
                         
-                        //Draw a border
-                        g.setColor(Color.YELLOW);
-                        g.drawRect(x1, y1, width, height);
-                        
-                        
-
+                        g.setColor(Color.RED);
+                        g.fillRect(x1, y1, width + 1, height/4);
+                        g.fillRect(x1, y1 + (height/2)/3, width + 1, height/4);
+                        g.fillRect(x1, y1, width + 1, height/4);
                         
 //                        g.setColor(Color.RED);
 //                        g.drawRect(x1 + 5, y1 + 5, width - 10, height - 10);
@@ -67,6 +65,12 @@ public class MyPanelClass extends JPanel {
 //                        g.setColor(Color.YELLOW);
 //                        g.fillPolygon(p);
                         
+                        
+                        //5 banners
+                        
+                        
+                        
+                        //star
                         Polygon p2 = new Polygon();
                         p2.addPoint(x1 + 25, y1 + 73);
                         p2.addPoint(x1 + 41, y1 + 73);
@@ -79,7 +83,7 @@ public class MyPanelClass extends JPanel {
                         p2.addPoint(x1 + 34, y1 + 98);
                         p2.addPoint(x1 + 38, y1 + 83);
                         g.setColor(Color.WHITE);
-                        g.drawPolygon(p2);
+                        g.fillPolygon(p2);
                         
 
             }
