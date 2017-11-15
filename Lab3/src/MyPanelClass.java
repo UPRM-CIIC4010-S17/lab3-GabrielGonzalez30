@@ -35,7 +35,25 @@ public class MyPanelClass extends JPanel {
                         g.setColor(Color.YELLOW);
                         g.drawRect(x1, y1, width, height);
                         
+                        
+
+                        
+//                        g.setColor(Color.RED);
+//                        g.drawRect(x1 + 5, y1 + 5, width - 10, height - 10);
+//                        
+//                        g.setColor(Color.WHITE);
+//                        g.drawLine(x1, y1, x2, y2);
+//                        g.setColor(Color.GREEN);
+//                        g.drawLine(x2, y1, x1, y2);
+                        
+                        
+                        int ovalDimensions = 55;
                         g.setColor(Color.RED);
-                        g.drawRect(x1 + 5, y1 + 5, width - 10, height - 10);
+                        g.fillOval(x2/2 - ovalDimensions/2, 
+                        		   y2/2 - ovalDimensions/2,
+                        		   ovalDimensions,
+                        		   ovalDimensions);
+                        
+
             }
 }
